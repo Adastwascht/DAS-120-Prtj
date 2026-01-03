@@ -22,7 +22,7 @@ Researched data for weather:
 - Humidity (Gathered from ERA5)
 - Wind (Gathered from ERA5)
 
-Source: https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview, I used the API key to extract from this database
+Source: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview, I used the API key to extract from this database
   
 Researched data for governmental capacity:
 - GDP at purchasing power parity (Gathered from World Bank)
