@@ -15,7 +15,7 @@ Primary indicators:
 - Yearly number of forest fires by country (Gathered from European Forest Fire Information System(EFFIS)) 
 - Yearly total burnt area by country (Gathered from EFFIS)
   
-Source: Bottom of the page: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
+Source: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
 
 Researched data for weather:
 - Temperatures (Gathered from ERA5)
