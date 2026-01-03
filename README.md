@@ -12,14 +12,15 @@ For the past years forest fires are the one of the most critical topics during s
 # Data Collection and Resources
 
 Primary indicators:
-- Yearly number of forest fires by country (Gathered from European Forest Fire Information System(EFFIS)) (Bottom of the page: https://forest-fire.emergency.copernicus.eu/applications/data-and-services)
-- Yearly total burnt area by country (Gathered from EFFIS) (Bottom of the page: https://forest-fire.emergency.copernicus.eu/applications/data-and-services)
-
+- Yearly number of forest fires by country (Gathered from European Forest Fire Information System(EFFIS)) 
+- Yearly total burnt area by country (Gathered from EFFIS) 
+  Source: Bottom of the page: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
 Researched data for weather:
-- Temperatures (Gathered from ERA5) (https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview)
-- Humidity (Gathered from ERA5) (https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview)
-- Wind (Gathered from ERA5) (https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview)
-
+- Temperatures (Gathered from ERA5)
+- Humidity (Gathered from ERA5)
+- Wind (Gathered from ERA5)
+  Source: https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview, I used the API key to extract from this database
+  
 Researched data for governmental capacity:
 - GDP at purchasing power parity (Gathered from World Bank)
 - GDP per capita at purchasing power parity (Gathered from World Bank)
