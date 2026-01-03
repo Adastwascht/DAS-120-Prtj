@@ -16,9 +16,9 @@ Primary indicators:
 - Yearly total burnt area by country (Gathered from EFFIS) (Bottom of the page: https://forest-fire.emergency.copernicus.eu/applications/data-and-services)
 
 Researched data for weather:
-- Temperatures (Gathered from ERA5)
-- Humidity (Gathered from ERA5)
-- Wind (Gathered from ERA5)
+- Temperatures (Gathered from ERA5) (https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview)
+- Humidity (Gathered from ERA5) (https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview)
+- Wind (Gathered from ERA5) (https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics?tab=overview)
 
 Researched data for governmental capacity:
 - GDP at purchasing power parity (Gathered from World Bank)
