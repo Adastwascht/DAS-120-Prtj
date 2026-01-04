@@ -13,7 +13,9 @@ For the past years forest fires are the one of the most critical topics during s
 
 Primary indicators:
 - Yearly number of forest fires by country (Gathered from European Forest Fire Information System(EFFIS)) 
-- Yearly total burnt area by country (Gathered from EFFIS)
+- Yearly total burnt area per forest area by country (Gathered from EFFIS)
+- Fire season number of forest fires by country (Gathered from EFFIS)
+- Fire season total burnt area per forest area by country (Gathered from EFFIS)
   
 Source: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
 
