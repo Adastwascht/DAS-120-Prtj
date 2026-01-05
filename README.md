@@ -37,3 +37,6 @@ Source: https://databank.worldbank.org/source/world-development-indicators
 # EDA
 
 Various combinations of variables are first plotted and then checked for correlation accordingly.
+Fire Count and Burnt Area per Forest Area by Country
+
+First made normal scatter plots but extreme values seemed to sometimes dominate variances and also as number of fires increased data became more noisy. So, log scale was also checked to mitigate those effects.
