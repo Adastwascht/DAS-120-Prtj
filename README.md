@@ -33,3 +33,7 @@ Researched data for governmental capacity:
 Source: https://databank.worldbank.org/source/world-development-indicators
 
 # Data Cleaning and Formatting
+
+# EDA
+
+Various combinations of variables are first plotted and then checked for correlation accordingly.
