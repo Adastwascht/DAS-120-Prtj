@@ -31,4 +31,5 @@ Researched data for governmental capacity:
 - Total Government Spending Expenditure % of GDP (Gathered from World Bank)
 
 Source: https://databank.worldbank.org/source/world-development-indicators
-- _Optional at this stage: Reasons for forest fires, tourism rate_
+
+# Data Cleaning and Formatting
