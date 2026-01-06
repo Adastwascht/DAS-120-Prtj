@@ -37,6 +37,11 @@ Source: https://databank.worldbank.org/source/world-development-indicators
 # EDA
 
 Various combinations of variables are first plotted and then checked for correlation accordingly.
-Fire Count and Burnt Area per Forest Area by Country
+Fire Count and Burnt Area per Forest Area by Country:
 
 First made normal scatter plots but extreme values seemed to sometimes dominate variances and also as number of fires increased data became more noisy. So, log scale was also checked to mitigate those effects.
+Fire counts didn't seem to be in correlation with burnt area universally, for some countries (France, Italy) the effects exists but for others it doesn't. 
+
+Monthly Temperature Averages:
+
+Results varied greatly among countries, conducted correlation analysis between burnt area and temprature averages. Temperature didn't seem to a very compatible with burnt area, so I moved on to compare it with yearly fire counts which yealded better but still not good enough results.
