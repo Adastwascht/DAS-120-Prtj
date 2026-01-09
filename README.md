@@ -99,37 +99,39 @@ All hypotheses other than burnt area/wind showed statistically significant resul
 - Second One: K-Means
   PCA showed that most of the climate variability could be represented in two dimensions. K-Means clustering was applied to identify distinct climate regimes during the fire season. The aim was to see if there existed regimes which weren't able to be detected by linear regression.
 
-K-Means was applied with PC1 and PC2, since they were standartized and structured. Different values of K were tested, and silhouette scores were used as the main cariteria.
+  K-Means was applied with PC1 and PC2, since they were standartized and structured. Different values of K were tested, and silhouette scores were used as the main cariteria.
 
-Although higher K values had slightly better silhouette scores, K = 6 was selected. This number of clusters seemed to provide sufficient separation between climate regimes while preserving interpertability and avoiding 
+  Although higher K values had slightly better silhouette scores, K = 6 was selected. This number of clusters seemed to provide sufficient separation between climate regimes while preserving interpertability and avoiding 
 
-When wildfire outcomes were examined across clusters, clear differences emerged. Some clusters corresponded to dry and windy regimes with high fire incidence and higher burned ratios, while others represented wetter or milder regimes with consistently lower fire activity. This result provided direct evidence that wildfire behavior is regime-dependent rather than globally linear.
+  When wildfire outcomes were examined across clusters, clear differences emerged. Some clusters corresponded to dry and windy regimes with high fire incidence and higher burned ratios, while others represented wetter or milder regimes with consistently lower fire activity. This result provided direct evidence that wildfire behavior is regime-dependent rather than globally linear.
 
-The clustering results supported earlier findings from hypothesis testing, where some variables(wind,temp) appeared insignificant in global regressions but became meaningful within specific climate regimes.
+  The clustering results supported earlier findings from hypothesis testing, where some variables(wind,temp) appeared insignificant in global regressions but became meaningful within specific climate regimes.
 
 - Third One: Decision Trees with Raw Data
   While clustering provided insight into regime-level differences, it didn't directly model wildfire outcomes. Decision trees were applied to capture nonlinear relationships, threshold effects, and interactions between weather variables.
 
-Decision tree regressors were trained separately for two targets:
-burned ratio (severity),
-fire count (frequency).
+  Decision tree regressors were trained separately for two targets:
+  burned ratio (severity),
+  fire count (frequency).
 
-Temperature, precipitation, and wind speed were used as raw input features to preserve physical interpretability. The dataset was split into training(75%) and test(25%) sets, and hyperparameters such as maximum depth and minimum samples per leaf were tuned to avoid overfitting.
+  Temperature, precipitation, and wind speed were used as raw input features to preserve physical interpretability. The dataset was split into training(75%) and test(25%) sets, and hyperparameters such as maximum depth and minimum samples per leaf were tuned to avoid overfitting.
 
-For fire count, decision trees achieved high predictive performance on the test set (R² ≈ 0.90). Precipitation consistently appeared as the primary splitting variable, confirming its dominant role in determining fire frequency. Temperature and wind further refined the predictions within dry regimes.
+  For fire count, decision trees achieved high predictive performance on the test set (R² ≈ 0.90). Precipitation consistently appeared as the primary splitting variable, confirming its dominant role in determining fire frequency. Temperature and wind further refined the predictions within dry regimes.
 
-For burned ratio, predictive performance was notably lower (test R² ≈ 0.20). This indicated that fire severity is more difficult to predict using seasonal averages alone and is likely influenced by additional factors such as suppression capacity, fuel continuity, and extreme short-term events.
+  For burned ratio, predictive performance was notably lower (test R² ≈ 0.20). This indicated that fire severity is more difficult to predict using seasonal averages alone and is likely influenced by additional factors such as suppression capacity, fuel continuity, and extreme short-term events.
 
-These results highlighted a key distinction: weather conditions are much more effective at explaining how often fires occur than how severe they become. (As discussed in hypothesis testing part)
+  These results highlighted a key distinction: weather conditions are much more effective at explaining how often fires occur than how severe they become. (As discussed in hypothesis testing part)
 
 - Fourth One: Decision Trees with PCA
   To test whether regime-level information improves performance, decision trees were also trained using PC1 and PC2 instead of raw weather variables. This put the focus on climate structure rather than individual measurements.
 
-For burned ratio, performance improved substantially compared to raw-feature trees (test R² ~0.37). PC2 emerged as the most important feature, indicating that wind–temperature contrasts play a significant role in determining fire severity once ignition occurs.
+  For burned ratio, performance improved substantially compared to raw-feature trees (test R² ~0.37). PC2 emerged as the most important feature, indicating that wind–temperature contrasts play a significant role in determining fire severity once ignition occurs.
 
-For fire count, performance decreased compared to raw-feature trees (test R² ~0.65). This suggests that while PCA is useful for reducing noise and capturing regimes, it may dilute strong single-variable signals—particularly precipitation—that are crucial for predicting fire frequency.
+  For fire count, performance decreased compared to raw-feature trees (test R² ~0.65). This suggests that while PCA is useful for reducing noise and capturing regimes, it may dilute strong single-variable signals—particularly precipitation—that are crucial for predicting fire frequency.
 
 - Overall:
   ML methods complemented hypothesis testing by uncovering nonlinear, regime-dependent behavior that linear models could not capture. PCA revealed that climate variability during the fire season is effectively low-dimensional. K-Means showed that wildfire activity differs substantially across climate regimes. Decision trees demonstrated that fire frequency and fire severity respond differently to climatic conditions and require different modeling strategies.
 
 Overall, the ML analysis provided a structured explanation for why some variables appeared weak or counter-intuitive in linear regression, while still playing an important role within specific climatic regimes.
+
+
