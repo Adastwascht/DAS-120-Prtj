@@ -1,6 +1,6 @@
 # DSA 210 Project
-This project is about the forest fires in Mediterranean in the near past. The project collects data from various data sources about weather, population density, forest type as expected, but it also is concerned about systematic response to forest fires, in other words government spending and related measures. Due to limited time and resources this project will only focus on a handful of countries from the Mediterranean.
-Link for the report: https://docs.google.com/document/d/1Wkv6w7k9nX8pgV3_HMwuxHuyrA1awZuVN6Idq8xv2Ks
+This project is about the forest fires in Mediterranean in the near past. The project collects data from various data sources about weather, population density, forest type as expected, but it also is concerned about systematic response to forest fires, in other words government spending and related measures. Due to limited time and resources this project will only focus on a handful of countries from the Mediterranean. 
+The docs link for the report: https://docs.google.com/document/d/1Wkv6w7k9nX8pgV3_HMwuxHuyrA1awZuVN6Idq8xv2Ks
 
 # Motivation
 For the past years forest fires are the one of the most critical topics during summer in the Mediterranean countries. Both from the aspect of nature and of the humans forest fires have devastating effects. For this purpose analysing relevant data to find patterns is important for me. 
