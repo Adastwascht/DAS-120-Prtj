@@ -25,12 +25,6 @@ Researched data for weather:
 
 Source: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview, I used the API key to extract from this database
   
-Researched data for governmental capacity:
-- GDP per capita at purchasing power parity (Gathered from World Bank)
-- Total Government Spending Expenditure % of GDP (Gathered from World Bank)
-
-Source: https://databank.worldbank.org/source/world-development-indicators
-
 # Data Cleaning and Formatting
 
 # EDA
