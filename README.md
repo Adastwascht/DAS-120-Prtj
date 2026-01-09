@@ -163,10 +163,15 @@ Overall, the findings indicate that Mediterranean wildfire behavior cannot be ad
 Several limitations should be considered when interpreting the results of this study:
 
 The analysis relies on seasonal averages, which may obscure short-term extreme events such as heatwaves or strong wind episodes that can drive large fires.
+
 Linear regression models impose strong assumptions of additivity and constant marginal effects, which are unlikely to fully capture wildfire dynamics.
+
 Although fire incidence was normalized by forest area to improve comparability, differences in reporting practices and fire management policies across countries may still affect results.
+
 The relatively small sample size limits the complexity of models and the ability to explore higher-order interactions.
+
 Machine learning models focused on interpretability rather than optimal prediction and did not include socio-economic or institutional variables due to data limitations.
+
 Results are specific to selected Mediterranean countries and may not generalize to other climatic regions.
 
 Despite these limitations, the combined use of statistical inference and machine learning provides a coherent and robust framework for understanding wildfire–climate relationships and highlights the importance of regime-based analysis in environmental data science.
