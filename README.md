@@ -45,7 +45,7 @@ Results were generally towards a negative sloped relationship. Burnt area shoved
 - Fire Season Average Wind Speed:
 Wind showed the weakest of results and consequently was framed as the least important factor(as expected intuitively). There results were mixed between countries, some had (+) and some had (-) slopes. This analysis also raised questions about whether pairwise comparisons were able to catch the whole picture.
 
--Overall:
+- Overall:
 Pairwise correlation analyses showed inconsistent(heterogeneous) and weak results. A model which utilized a combination of these factors seemed the better choice at this point. Linear Regression appeared as the first candidate before moving onto clustering and dimentionality reduction. There may be some threshold kind of factors at play also, since it sound intuitive that some factors require others parameters to have reached a certain amount (ie. strong wind and temperature doesn't cause fires if there is a lot of rainfall)
 
 
