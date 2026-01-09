@@ -134,4 +134,44 @@ All hypotheses other than burnt area/wind showed statistically significant resul
 
   Overall, the ML analysis provided a structured explanation for why some variables appeared weak or counter-intuitive in linear regression, while still playing an important role within specific climatic regimes.
 
+# Results
 
+This project investigated the relationship between fire season weather conditions and wildfire activity in selected Mediterranean countries, focusing on two distinct wildfire outcomes: fire incidence (frequency) and burned ratio (severity). Results from exploratory analysis, hypothesis testing, and machine learning methods consistently indicate that wildfire behavior is both multivariate and regime-dependent.
+
+From hypothesis testing, precipitation emerged as the most robust and consistent climatic factor. It showed a strong negative association with both fire incidence and burned ratio, indicating that moisture availability plays a central role in limiting both the likelihood and severity of forest fires. Temperature and wind, on the other hand, exhibited more complex behavior. While temperature showed a positive association with burned ratio and a significant but counter-intuitive negative association with fire incidence, wind speed was only statistically significant for fire incidence and not for burned ratio.
+
+The OLS model for burned ratio achieved an R^2 of approximately 0.62, suggesting moderate explanatory power when climate variables and country fixed effects are considered together. In contrast, fire incidence models based on Poisson and Negative Binomial regressions showed moderate pseudo-R^2 values (~0.16–0.19), reflecting the inherently stochastic nature of wildfire occurrence even after normalization.
+
+Machine learning methods helped clarify and extend these findings. PCA demonstrated that nearly all climate variability during the fire season could be summarized by two principal components. The first component (PC1) represented a moisture gradient separating wet, mild conditions from dry, hot, and windy regimes, while the second component (PC2) captured a temperature–wind contrast relevant to fire spread dynamics.
+
+K-Means clustering applied to the PCA space revealed distinct climate regimes with systematically different wildfire outcomes. Some clusters were consistently associated with high fire incidence and higher burned ratios, while others showed low wildfire activity. This confirmed that global linear effects mask regime-specific behavior.
+
+Decision tree models further supported these conclusions. Fire incidence was highly predictable from seasonal climate variables, particularly precipitation, indicating strong nonlinear and threshold effects. Burned ratio, however, proved substantially harder to predict, even with nonlinear models, suggesting that severity depends on additional factors beyond seasonal climate averages.
+
+# Discussion
+
+Taken together, the results suggest that fire frequency and fire severity are governed by different mechanisms. Fire incidence appears to be strongly controlled by broad climatic conditions, especially moisture availability, while burned ratio depends more heavily on regime-specific and conditional effects involving temperature and wind.
+
+The apparent contradictions observed in linear regression results—such as the negative association between temperature and fire incidence or the insignificance of wind for burned ratio—are better understood once regime dependence and multivariate interactions are considered. PCA and clustering revealed that weather variables do not act independently, and decision trees showed that their effects are often conditional on thresholds and combinations rather than additive linear contributions.
+
+Importantly, machine learning methods did not replace hypothesis testing but rather complemented it. Hypothesis testing established statistically significant associations, while ML methods explained why these associations vary across regimes and why linear models alone are insufficient for capturing wildfire dynamics.
+
+Overall, the findings indicate that Mediterranean wildfire behavior cannot be adequately described by single-variable or globally linear models. Instead, wildfire activity reflects a combination of moisture conditions, thermal stress, wind dynamics, and regime-specific interactions.
+
+# Limitations
+
+Several limitations should be considered when interpreting the results of this study:
+
+The analysis relies on seasonal averages, which may obscure short-term extreme events such as heatwaves or strong wind episodes that can drive large fires.
+
+Linear regression models impose strong assumptions of additivity and constant marginal effects, which are unlikely to fully capture wildfire dynamics.
+
+Although fire incidence was normalized by forest area to improve comparability, differences in reporting practices and fire management policies across countries may still affect results.
+
+The relatively small sample size limits the complexity of models and the ability to explore higher-order interactions.
+
+Machine learning models focused on interpretability rather than optimal prediction and did not include socio-economic or institutional variables due to data limitations.
+
+Results are specific to selected Mediterranean countries and may not generalize to other climatic regions.
+
+Despite these limitations, the combined use of statistical inference and machine learning provides a coherent and robust framework for understanding wildfire–climate relationships and highlights the importance of regime-based analysis in environmental data science.
