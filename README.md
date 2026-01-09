@@ -175,3 +175,6 @@ Machine learning models focused on interpretability rather than optimal predicti
 Results are specific to selected Mediterranean countries and may not generalize to other climatic regions.
 
 Despite these limitations, the combined use of statistical inference and machine learning provides a coherent and robust framework for understanding wildfire–climate relationships and highlights the importance of regime-based analysis in environmental data science.
+
+# References:
+I have stored all my conversations with LLMs(only ChatGPT) and openly available data was used for academic purposes.
