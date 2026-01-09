@@ -132,6 +132,6 @@ All hypotheses other than burnt area/wind showed statistically significant resul
 - Overall:
   ML methods complemented hypothesis testing by uncovering nonlinear, regime-dependent behavior that linear models could not capture. PCA revealed that climate variability during the fire season is effectively low-dimensional. K-Means showed that wildfire activity differs substantially across climate regimes. Decision trees demonstrated that fire frequency and fire severity respond differently to climatic conditions and require different modeling strategies.
 
-Overall, the ML analysis provided a structured explanation for why some variables appeared weak or counter-intuitive in linear regression, while still playing an important role within specific climatic regimes.
+  Overall, the ML analysis provided a structured explanation for why some variables appeared weak or counter-intuitive in linear regression, while still playing an important role within specific climatic regimes.
 
 
