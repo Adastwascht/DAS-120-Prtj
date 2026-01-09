@@ -6,8 +6,7 @@ For the past years forest fires are the one of the most critical topics during s
 
 # Research Questions 
 
-1. How does weather values affect number of fires and total burnt area?
-2. How does governmental capacity affect number of fires and total burnt area?
+How does weather values affect number of fires and total burnt area?
 
 # Data Collection and Resources
 
