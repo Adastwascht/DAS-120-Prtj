@@ -52,6 +52,7 @@ Pairwise correlation analyses showed inconsistent(heterogeneous) and weak result
 
 - Hypotheses tested at this stage:
     For each weather variable W(temperature, wind, precipitation),
+  
       H0: Beta_x = 0 (Variable has no association with the wildfire outcome)
       HA: Beta_x != 0 (Variable has statistically significant association with the wildfire outcome)
 
