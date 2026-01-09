@@ -66,14 +66,12 @@ Multivariable regression was used since the effect was expected to be a combinat
 Temperature showed a positive coefficient(0.17) with p=0.003(significant). This can be used to conclude that temperature is positively associated with fire severity
 Precipitation showed a negative coefficient(-0.71) with p=0.001(significant). This can be used to conclude that precipitaion is negatively associated with fire severity
 Wind showed a negative coefficient(-0.04) with p=0.817(not significant). Wind data cannot be used to show proper association with fire severity.
-
 R^2 value was 0.62, which indicated some moderate explanatory power. As also warned by the library itself, there still exists suspicions of multicolinarity between variables, which drove further ML applications.
 
 - Fire Incidence Results:
 Temperature showed a negative coefficient(-0.22) with very high significance. Although it showed significance, the counter-intuitiveness is apparent. This can be explained by some interdependency and regime dependent structure of the data at this point(further investigations will provide evidence towards this claim)
 Precipitation showed a negative coefficient(-1.44) with very high significance. This can be used to conclude that precipitaion is negatively associated with fire frequence. This also confirms precipitaion being a dominating variable among all three.
 Suprisingly wind showed a negative coefficient(-0.89) with very high significance. This at this point seems to have been caused my some regime dependency or interdependence among variables, this also shows wind's possible significance for further investigations.
-
 Model showed moderate explanatory power compared to the null case. (pseudo R^2=0.1860)
 
 - Overall:
