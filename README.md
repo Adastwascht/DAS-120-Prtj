@@ -15,6 +15,7 @@ Primary indicators:
 - Yearly total burnt area per forest area by country (Gathered from EFFIS)
 - Fire season number of forest fires by country (Gathered from EFFIS)
 - Fire season total burnt area per forest area by country (Gathered from EFFIS)
+- Yearly number of forest fires per forest area by country (Gathered from EFFIS and World Bank)
   
 Source: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
 
@@ -30,11 +31,24 @@ Source: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels
 # EDA
 
 Various combinations of variables are first plotted and then checked for correlation accordingly.
-Fire Count and Burnt Area per Forest Area by Country:
 
+- Fire Count and Burnt Area per Forest Area by Country:
 First made normal scatter plots but extreme values seemed to sometimes dominate variances and also as number of fires increased data became more noisy. So, log scale was also checked to mitigate those effects.
-Fire counts didn't seem to be in correlation with burnt area universally, for some countries (France, Italy) the effects exists but for others it doesn't. 
+Fire incidence didn't seem to be in correlation with burnt area universally, for some countries (France, Italy) the effects exists but for others it doesn't. I realized that they were different indicators where burnt area is dependent of the country response and other structural factors(severity) whereas fire count is the frequency/likelihood. Correlation tables also confirmed the case of weak correlations and high variability between countries.
 
-Monthly Temperature Averages:
+- Fire Season Yearly Temperature Averages:
+Results varied greatly among countries, conducted correlation analysis between burnt area and temprature averages. Temperature didn't seem to a very compatible with burnt area, so I moved on to compare it with yearly fire counts which yielded better but still not good enough results. Correlation tables confirmed the visual inspection made prior. This is the first instance of a case of combinations being needed.
 
-Results varied greatly among countries, conducted correlation analysis between burnt area and temprature averages. Temperature didn't seem to a very compatible with burnt area, so I moved on to compare it with yearly fire counts which yealded better but still not good enough results.
+- Fire Season Total Precipitation:
+Results were generally towards a negative sloped relationship. Burnt area shoved visual correlation in some countries, fire counts showed a stronger (-) relationship. The consistency(low precipitation yearly consistently coincided with extreme damage years) of total precipitation indicated its importance in explaining fires. Although correlation tables showed considerably stronger results inter-country variability was still high.
+
+- Fire Season Average Wind Speed:
+Wind showed the weakest of results and consequently was framed as the least important factor(as expected intuitively). There results were mixed between countries, some had (+) and some had (-) slopes. This analysis also raised questions about whether pairwise comparisons were able to catch the whole picture.
+
+-Overall:
+Pairwise correlation analyses showed inconsistent(heterogeneous) and weak results. A model which utilized a combination of these factors seemed the better choice at this point. Linear Regression appeared as the first candidate before moving onto clustering and dimentionality reduction. There may be some threshold kind of factors at play also, since it sound intuitive that some factors require others parameters to have reached a certain amount (ie. strong wind and temperature doesn't cause fires if there is a lot of rainfall)
+
+
+
+
+
