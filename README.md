@@ -63,13 +63,13 @@ Multivariable regression was used since the effect was expected to be a combinat
 
 - Burned Ratio Results:
 
-Temperature showed a positive coefficient(0.17) with p=0.003(significant). This can be used to conclude that temperature is positively associated with fire severity
+  Temperature showed a positive coefficient(0.17) with p=0.003(significant). This can be used to conclude that temperature is positively associated with fire severity
 
-Precipitation showed a negative coefficient(-0.71) with p=0.001(significant). This can be used to conclude that precipitaion is negatively associated with fire severity
+  Precipitation showed a negative coefficient(-0.71) with p=0.001(significant). This can be used to conclude that precipitaion is negatively associated with fire severity
 
-Wind showed a negative coefficient(-0.04) with p=0.817(not significant). Wind data cannot be used to show proper association with fire severity.
+  Wind showed a negative coefficient(-0.04) with p=0.817(not significant). Wind data cannot be used to show proper association with fire severity.
 
-R^2 value was 0.62, which indicated some moderate explanatory power. As also warned by the library itself, there still exists suspicions of multicolinarity between variables, which drove further ML applications.
+  R^2 value was 0.62, which indicated some moderate explanatory power. As also warned by the library itself, there still exists suspicions of multicolinarity between variables, which drove further ML applications.
 
 - Fire Incidence Results:
 
