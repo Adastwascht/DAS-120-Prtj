@@ -74,7 +74,9 @@ Temperature showed a negative coefficient(-0.22) with very high significance. Al
 Precipitation showed a negative coefficient(-1.44) with very high significance. This can be used to conclude that precipitaion is negatively associated with fire frequence. This also confirms precipitaion being a dominating variable among all three.
 Suprisingly wind showed a negative coefficient(-0.89) with very high significance. This at this point seems to have been caused my some regime dependency or interdependence among variables, this also shows wind's possible significance for further investigations.
 
+Model showed moderate explanatory power compared to the null case. (pseudo R^2=0.1860)
+
 - Overall:
-All hypotheses other than burnt area/wind showed statistically significant results. Fire incidence seemed to be better associated with weather factors compared to burnt ratio. Both models showed indications towards a need to investigate interdependency.
+All hypotheses other than burnt area/wind showed statistically significant results. Fire incidence seemed to be better associated with weather factors compared to burnt ratio. Both models showed indications towards a need to investigate interdependency. The limitations of linear regression being its additiveness and it being completely linear rather than considering tresholds or interdependency must be kept in mind when interpreting these results.
 
 
