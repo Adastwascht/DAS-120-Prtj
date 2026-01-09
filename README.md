@@ -48,6 +48,13 @@ Wind showed the weakest of results and consequently was framed as the least impo
 - Overall:
 Pairwise correlation analyses showed inconsistent(heterogeneous) and weak results. A model which utilized a combination of these factors seemed the better choice at this point. Linear Regression appeared as the first candidate before moving onto clustering and dimentionality reduction. There may be some threshold kind of factors at play also, since it sound intuitive that some factors require others parameters to have reached a certain amount (ie. strong wind and temperature doesn't cause fires if there is a lot of rainfall)
 
+# Hypothesis Testing
+
+Hypotheses tested at this stage:
+  For each weather variable W(temperature, wind, precipitation),
+    H0: Beta_x = 0 (Variable has no association with the wildfire outcome)
+    HA: Beta_x != 0 (Variable has statistically significant association with the wildfire outcome)
+
 
 
 
