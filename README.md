@@ -1,6 +1,6 @@
 # DSA 210 Project
 This project is about the forest fires in Mediterranean in the near past. The project collects data from various data sources about weather, population density, forest type as expected, but it also is concerned about systematic response to forest fires, in other words government spending and related measures. Due to limited time and resources this project will only focus on a handful of countries from the Mediterranean. 
-The docs link for the report: https://docs.google.com/document/d/1Wkv6w7k9nX8pgV3_HMwuxHuyrA1awZuVN6Idq8xv2Ks
+The docs link for the report images(the report is the readme itself): https://docs.google.com/document/d/1Wkv6w7k9nX8pgV3_HMwuxHuyrA1awZuVN6Idq8xv2Ks
 
 # Motivation
 For the past years forest fires are the one of the most critical topics during summer in the Mediterranean countries. Both from the aspect of nature and of the humans forest fires have devastating effects. For this purpose analysing relevant data to find patterns is important for me. 
@@ -136,7 +136,7 @@ All hypotheses other than burnt area/wind showed statistically significant resul
 
 # Results
 
-This project investigated the relationship between fire season weather conditions and wildfire activity in selected Mediterranean countries, focusing on two distinct wildfire outcomes: fire incidence (frequency) and burned ratio (severity). Results from exploratory analysis, hypothesis testing, and machine learning methods consistently indicate that wildfire behavior is both multivariate and regime-dependent.
+This project investigated the relationship between fire season weather conditions and wildfire activity in selected Mediterranean countries, focusing on two distinct wildfire outcomes: fire incidence (frequency) and burned ratio (severity). Results from exploratory analysis, hypothesis testing, and machine learning methods consistently indicated that wildfire behavior is both multivariate related and regime dependent.
 
 From hypothesis testing, precipitation emerged as the most robust and consistent climatic factor. It showed a strong negative association with both fire incidence and burned ratio, indicating that moisture availability plays a central role in limiting both the likelihood and severity of forest fires. Temperature and wind, on the other hand, exhibited more complex behavior. While temperature showed a positive association with burned ratio and a significant but counter-intuitive negative association with fire incidence, wind speed was only statistically significant for fire incidence and not for burned ratio.
 
@@ -162,19 +162,17 @@ Overall, the findings indicate that Mediterranean wildfire behavior cannot be ad
 
 Several limitations should be considered when interpreting the results of this study:
 
-The analysis relies on seasonal averages, which may obscure short-term extreme events such as heatwaves or strong wind episodes that can drive large fires.
+Analysis was done with monthly/seasonal averages which may provide inaccurate results considering that fires are also associated with extreme conditions.
 
-Linear regression models impose strong assumptions of additivity and constant marginal effects, which are unlikely to fully capture wildfire dynamics.
+The linear regression model used for this project may be too rigid to comprehensively express the model.
 
-Although fire incidence was normalized by forest area to improve comparability, differences in reporting practices and fire management policies across countries may still affect results.
+The primary data used in this project was initially collecte by reports, so there might be organizational inefficiencies etc. that actually damage the initial data.
 
-The relatively small sample size limits the complexity of models and the ability to explore higher-order interactions.
+The relatively small sample size, especially for some countries, limits the complexity of models and the ability to explore higher-order interactions.
 
-Machine learning models focused on interpretability rather than optimal prediction and did not include socio-economic or institutional variables due to data limitations.
+Machine learning models are focused on interpretability and did not include socio-economic or institutional variables due to data limitations.
 
 Results are specific to selected Mediterranean countries and may not generalize to other climatic regions.
-
-Despite these limitations, the combined use of statistical inference and machine learning provides a coherent and robust framework for understanding wildfire–climate relationships and highlights the importance of regime-based analysis in environmental data science.
 
 # References:
 I have stored all my conversations with LLMs(only ChatGPT) and openly available data was used for academic purposes.
