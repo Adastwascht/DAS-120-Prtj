@@ -163,17 +163,17 @@ Overall, the findings indicate that Mediterranean wildfire behavior cannot be ad
 
 Several limitations should be considered when interpreting the results of this study:
 
-Analysis was done with monthly/seasonal averages which may provide inaccurate results considering that fires are also associated with extreme conditions.
+- Analysis was done with monthly/seasonal averages which may provide inaccurate results considering that fires are also associated with extreme conditions.
 
-The linear regression model used for this project may be too rigid to comprehensively express the model.
+- The linear regression model used for this project may be too rigid to comprehensively express the model.
 
-The primary data used in this project was initially collecte by reports, so there might be organizational inefficiencies etc. that actually damage the initial data.
+- The primary data used in this project was initially collecte by reports, so there might be organizational inefficiencies etc. that actually damage the initial data.
 
-The relatively small sample size, especially for some countries, limits the complexity of models and the ability to explore higher-order interactions.
+- The relatively small sample size, especially for some countries, limits the complexity of models and the ability to explore higher-order interactions.
 
-Machine learning models are focused on interpretability and did not include socio-economic or institutional variables due to data limitations.
+- Machine learning models are focused on interpretability and did not include socio-economic or institutional variables due to data limitations.
 
-Results are specific to selected Mediterranean countries and may not generalize to other climatic regions.
+- Results are specific to selected Mediterranean countries and may not generalize to other climatic regions.
 
 # References:
 I have stored all my conversations with LLMs(only ChatGPT) and openly available data was used for academic purposes.
